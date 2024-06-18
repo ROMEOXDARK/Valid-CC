@@ -1,3 +1,8 @@
+"""
+This Program Is Made By XSHADOW3773
+Make sure to join telegram channel to get latest updates
+telegram channel - @ShadowGardenHackingz
+"""
 import sys
 import requests 
 import json
@@ -27,14 +32,14 @@ gg = colorama.Fore.LIGHTCYAN_EX
 
 
 def logo():
-    figlet = Figlet(font="standard").renderText("Fox CC")
+    figlet = Figlet(font="standard").renderText("Shadow Garden")
     return (gn + figlet)
 print (logo())
-print (bl + "[-] Powered by Black Fox Security Team ")
-print (gn + "[+] Made By Maximum Radikali")
-print (cy + "[=] Fox CC Tools Version : 1.1")
+print (bl + "[-] Made By XShadow3773 ")
+print (gn + "[+] Telegram- @ShadowGardenHackingz")
+print (cy + "[=] Valid CC Version 2.1")
 
-opr = input (mag + "\n[x] 1) Generate single valid cc\n[x] 2) Generate multi valid cc (generate cc list)\n[x] 3) CC validator\n[x] 4) Generate Multi Bin Number \n\n[^] Please Enter an option :  ")
+opr = input (mag + "\n[x] 1) Generate a single valid cc\n[x] 2) Generate many valid cc (generate cc list)\n[x] 3) CC validator\n[x] 4) Generate Multi Bin Number \n\n[^] Please Enter an option :  ")
 
 def genscard():
     cookies = {"csrftoken":"8b56rI96TwUH0X7dOT86JmPMBbUVYEpX3EI7ZKp3ZXHWnrRySD9ORyNaAaRXnW7i","_ga":"GA1.2.1579916434.1654760883","_gid":"GA1.2.1410860416.1654760883","_gads":"ID=d4f0fe2265535514-2243e178fad30069:T=1654760893:RT=1654760893:S=ALNI_MaIzJo5Kmg3rKoLXSuvDGnQkyW3uw","_gpi":"UID=0000087f297f7f43:T=1654760893:RT=1654760893:S=ALNI_MbnajBnRWmSHW7vrpR-U1w2uMwyVw",'FCNEC':'[["AKsRol_6etCde6kaPNd_o13SF2anvKLy0qaXvN6Kz0O_d9YbYS_KOfZ-j0xDjsEXL_4Otx5R38juHOOwfg0JShy5DHGmgAw2R6ZN4KZyI3qGimMjR0mQ0SEgj2ncvV4jQ32pssYst9ml2ptS_Ip2XyPbrLivgKXjIQ=="],null,[]]'}
@@ -91,4 +96,4 @@ elif opr == "4":
     print (rd)
     bin.bin_generator(number , round)
     print ("Saved File as bin_generated.txt !")
-    print (mag + "[$] Telegram Channel : @BlackFoxSecurityTeam" + cv)
+    print (mag + "[$] Telegram Channel : @ShadowGardenHackingz" + cv)
