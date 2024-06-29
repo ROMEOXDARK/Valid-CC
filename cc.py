@@ -1,7 +1,7 @@
 """
-This Program Is Made By XSHADOW3773
+This Program Is Made By @RomeoxHacker
 Make sure to join telegram channel to get latest updates
-telegram channel - @ShadowGardenHackingz
+telegram channel - @Romeo_Mods
 """
 import sys
 import requests 
@@ -32,11 +32,11 @@ gg = colorama.Fore.LIGHTCYAN_EX
 
 
 def logo():
-    figlet = Figlet(font="standard").renderText("Shadow Garden")
+    figlet = Figlet(font="standard").renderText("Romeo Hacker")
     return (gn + figlet)
 print (logo())
-print (bl + "[-] Made By XShadow3773 ")
-print (gn + "[+] Telegram- @ShadowGardenHackingz")
+print (bl + "[-] Made By RomeoxHacker ")
+print (gn + "[+] Telegram- @Romeo_Mods")
 print (cy + "[=] Valid CC Version 2.1")
 
 opr = input (mag + "\n[x] 1) Generate a single valid cc\n[x] 2) Generate many valid cc (generate cc list)\n[x] 3) CC validator\n[x] 4) Generate Multi Bin Number \n\n[^] Please Enter an option :  ")
@@ -96,4 +96,4 @@ elif opr == "4":
     print (rd)
     bin.bin_generator(number , round)
     print ("Saved File as bin_generated.txt !")
-    print (mag + "[$] Telegram Channel : @ShadowGardenHackingz" + cv)
+    print (mag + "[$] Telegram Channel : @Romeo_mods" + cv)
